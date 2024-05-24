@@ -3,7 +3,7 @@ import "./ProfileInfo.css";
 
 export const ProfileInfo = () => {
   return (
-    <div>
+    <>
       <div className="profile-pic-container">
         <div className="profile-pic-wrap">
           <img
@@ -25,6 +25,6 @@ export const ProfileInfo = () => {
       <p>{myProfileData.birthday}</p>
       <h3>Interests</h3>
       <p>{myProfileData.interests.join(",")}</p>
-    </div>
+    </>
   );
 };
